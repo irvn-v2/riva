@@ -16,13 +16,11 @@ def is_prime(num):
 
 
 # Example usage:
-number = 59  # Replace with any number you want to check
+number = 17  # Replace with any number you want to check
 if is_prime(number):
     print(f"{number} is a prime number")
 else:
     print(f"{number} is not a prime number")
-
-
 
 
 def check_vowel_or_consonant(letter):
