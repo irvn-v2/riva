@@ -4,10 +4,13 @@ class Device:
         self.yom = yom
 
     def crush(self):
-        print(self.model, "has crushed")
+        print(self.model, "which was made on", self.yom, "has crushed")
 
 computer = Device("HP", 2008)
 computer.crush()
 
 laptop = Device("Dell", 1992)
 laptop.crush()
+
+phone = Device("Samsung", 2024)
+phone.crush()
