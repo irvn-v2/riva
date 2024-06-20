@@ -12,8 +12,14 @@ class Car:
 car1 = Car("B12", "white", "BMW", 2024)
 car1.speed()
 
-car2 = Car("B12", "white", "BMW", 2024)
-car3 = Car("B12", "white", "BMW", 2024)
-car4 = Car("B12", "white", "BMW", 2024)
-car5 = Car("B12", "white", "BMW", 2024)
+car2 = Car("cayenne", "red", "Porsche", 2019)
+car2.speed()
 
+car3 = Car("harrier", "black", "Toyota", 2021)
+car3.speed()
+
+car4 = Car("vogue", "beige", "Range Rover", 2015)
+car4.speed()
+
+car5 = Car("bentayga", "yellow", "Bentley", 2015)
+car5.speed()
